@@ -14,6 +14,7 @@ export class AppComponent implements OnInit {
 
   ngOnInit(): void {
     this.getListProduct();
+    //call
   }
   getListProduct(){
     this.productSerive.getProduct().subscribe((res)=>{
